@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=".css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header class="header">
+<header class="header  header--fixed">
     <div class="container">
         <div class="header_inner">
             <div class="logo">AYA IVANOV</div>
             
-            <nav class="nav">
+            <nav class="nav" id="nav">
                 <a class="nav_link" href="#about">about</a>
                 <a class="nav_link" href="#work">work</a>
                 <a class="nav_link" href="#contact">contact</a>
             </nav>
+
+            <div class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle_item"></span>
+            </div>
 
         </div>
     </div>
@@ -63,6 +68,9 @@
         </div>
     </div>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
