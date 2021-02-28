@@ -16,6 +16,10 @@ h1, h2, h3 {
     margin: 0%;
 }
 
+.page {
+    overflow: hidden;
+}
+
 .container {
     width: 100%;
     max-width: 1240px;
@@ -39,7 +43,7 @@ h1, h2, h3 {
 .intro_inner {
     width: 100%;
     max-width: 880px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .intro_title {
@@ -257,7 +261,8 @@ h1, h2, h3 {
 @media (max-width: 575px) {
     
     .intro_title {
-        font-size: 70px;
+        font-size: 50px;
+        
     }
 
     .about_title {
