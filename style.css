@@ -231,8 +231,7 @@ h1, h2, h3 {
 }
 
 .footer {
-    padding-top: 10px;
-
+    padding: 5px 0 5px;
     background-color: rgb(56, 54, 54);
 }
 
@@ -299,6 +298,10 @@ h1, h2, h3 {
     .logo {
         font-size: 23px;
         padding-top: 10px;
+    }
+
+    .copyright {
+        font-size: 12px;
     }
 
 }
