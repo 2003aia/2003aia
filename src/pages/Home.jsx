@@ -72,7 +72,7 @@ export const Home = () => {
                   color="#000000"
                   position={[0, -2.7, 0]}
                 />
-                <Suspense fallback={<h1>loading</h1>}>
+                <Suspense fallback={null}>
                   <Tiger castShadow />
                 </Suspense>
               </Canvas>

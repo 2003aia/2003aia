@@ -5,5 +5,4 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: 'https://2003aia.github.io/2003aia/',
-  
 });
