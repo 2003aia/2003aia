@@ -29,11 +29,11 @@ export const GlassModal = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  min-width: 250px;
   text-align: center;
+max-width: 400px;
 
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  padding: 0.3rem;
 
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

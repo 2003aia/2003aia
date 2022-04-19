@@ -2,11 +2,12 @@
   "name": "aia",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://2003aia.github.io/2003aia/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
