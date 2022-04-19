@@ -59,9 +59,7 @@ function MainPort() {
       <Header />
 
       <Main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Home />
       </Main>
 
       <Footer />

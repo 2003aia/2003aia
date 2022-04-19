@@ -98,9 +98,10 @@ export const Header = () => {
   return (
     <Background>
       <Container>
-        <Link
-          to="/"
-          /* href="https://2003aia.github.io/2003aia/" */ style={{
+        <a
+          /* to="/" */
+          href="https://2003aia.github.io/2003aia/"
+          style={{
             textDecoration: "none",
           }}
         >
@@ -124,7 +125,7 @@ export const Header = () => {
               Aia Ivanova
             </h2>
           </Logo>
-        </Link>
+        </a>
         <Nav>
           <Modal
             aria-labelledby="transition-modal-title"

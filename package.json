@@ -1,7 +1,7 @@
 {
   "name": "aia",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://2003aia.github.io/2003aia/",
   "scripts": {
     "dev": "vite",
