@@ -1,6 +1,4 @@
-### Hi there 👋
-
-<h1>Hi, there i'm Aia</h1>
+### (┬┬﹏┬┬)
 
 <!--
 **2003aia/2003aia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
